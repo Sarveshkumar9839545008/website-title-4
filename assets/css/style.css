@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header,footer{
+    padding-left: 30px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    background: rgb(128, 0, 49);
+    padding-top: 10px;
+}
+header h1{
+    padding-top: 15px;
+}
+section{
+    width: 100%;
+}
+section main{
+    width: 90%;
+    float: left;
+    text-align: justify;
+    padding:10px 20px;
+}
+main h3{
+    margin: 18px 0px;
+}
+main ul li{
+    list-style: none;
+    margin-top: 10px 0px;
+}
+@media screen and (max-width:991px) {
+    
+}
+@media screen and (max-width:769px) {
+    section main{
+        width: 100px;
+        padding: 0px;
+        line-height: normal;
+    }
+}
+@media screen and (max-width:576px) {
+    section main{
+        line-height: normal;
+    }
+}
